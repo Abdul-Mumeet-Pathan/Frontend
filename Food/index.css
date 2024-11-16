@@ -1,0 +1,268 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF3E0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #E76F51;
+}
+
+a:hover {
+    color: #F4A261;
+}
+
+/* Header Styles */
+header {
+    background: url('https://media.istockphoto.com/id/1659768009/photo/vegan-thanksgiving-dinner-with-pumpkin-kale-pot-pie-butternut-squash-roasted-green-beans-with.webp?a=1&b=1&s=612x612&w=0&k=20&c=KWWXE9WHck_xUZDVuptBTgd0XqmSc6TX6WzeFlyh_yw=') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 40px 10%;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('https://www.marthastewart.com/thmb/aCQAntZezEZYQ0mAMlAUhAtC7Ng=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-315393-libbys-famous-pumpkin-pie-horiz-1023-eb8a82b637b2447d96442c00152ea309.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero .cta-button {
+    background-color: #E76F51;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero .cta-button:hover {
+    background-color: #F4A261;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 10%;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* About Section */
+#about img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 5px solid #E76F51;
+}
+
+/* Recipe Cards */
+.recipe-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #264653;
+    color: white;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background-color: #2A9D8F;
+}
+
+/* Contact Form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #E76F51;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eeb07e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #264653;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Navigation Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F4A261;;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo a {
+    color: #F4A261;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #E76F51;
+}
+
+/* Hamburger Menu */
+.burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.burger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #ededed;
+        width: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .burger {
+        display: flex;
+    }
+}
+/* About Section */
+#about {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center;    /* Center align content horizontally */
+    justify-content: center; /* Center align content vertically */
+    height: 80vh;           /* Increase height to 80% of viewport */
+    background-color: #f0e68c; /* Light yellow background */
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;       /* Prevent overflow if content is too large */
+}
+
+/* Image inside About Section */
+#about img {
+    width: 100%;            /* Make image fill the width */
+    max-width: 800px;       /* Limit the image width to 800px */
+    height: auto;           /* Maintain aspect ratio */
+    border-radius: 10px;    /* Optional: Add rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    object-fit: cover;      /* Ensure image covers the container area */
+}
+
+/* Text in About Section */
+#about p {
+    font-size: 1.5rem;      /* Adjust font size */
+    color: #264653;         /* Darker text color for better contrast */
+    font-weight: bold;      /* Bold text for emphasis */
+    max-width: 800px;       /* Limit width to 800px for readability */
+    margin-top: 20px;       /* Add space between image and text */
+}
+

@@ -1,0 +1,96 @@
+/* General Body Styles */
+/* General Body Styles */
+body {
+    background: url('https://www.rose-hulman.edu/class/csse/csse280/current/Homework/recipe/images/silverware.jpg') repeat;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Main Heading Style */
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-decoration: underline;
+    padding: 10px;
+    letter-spacing: 0.25em; /* Added letter-spacing */
+}
+
+/* Subheading Styles */
+h2, h3, h4 {
+    font-size: 18pt;
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-decoration: underline;
+    margin: 20px 0;
+    padding: 5px;
+    letter-spacing: 0.25em; /* Added letter-spacing */
+    display: inline-block; /* Tight background behind text */
+}
+
+/* Image Style - Top Left Corner */
+.top-left-image {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px; /* Resize the image width */
+    height: 150px; /* Resize the image height */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}
+
+/* Links Style */
+a {
+    color: #A4A400;
+}
+
+/* Ingredients Tooltip */
+.tooltip {
+    text-decoration: underline;
+    cursor: help;
+}
+
+.tooltip:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: #FFFFCC;
+    border: 1px solid #A4A400;
+    padding: 5px;
+    font-size: 10pt;
+    white-space: nowrap;
+}
+
+/* Monospace text for copyright */
+pre {
+    font-family: "Courier New", monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-top: 30px;
+}
+
+/* Strikethrough for word replacement */
+.strikethrough {
+    text-decoration: line-through;
+}
+
+/* List styles */
+/* List styles */
+ul {
+    list-style-image: url('https://www.rose-hulman.edu/class/csse/csse280/current/Homework/recipe/images/pie-icon.png'); /* Pie icon for list bullets */
+    padding-left: 20px; /* Space for the icon */
+    margin-left: 0; /* Aligns with the rest of the content */
+}
+
+/* Blockquote styling */
+blockquote {
+    background-color: #FFFFA8; /* Light yellow background */
+    border-left: 5px solid #ccc; /* Left border for blockquote */
+    margin: 20px;
+    padding: 10px;
+    font-style: italic;
+}
