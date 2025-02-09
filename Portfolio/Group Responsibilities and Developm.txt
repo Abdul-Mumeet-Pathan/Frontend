@@ -1,0 +1,114 @@
+Group Responsibilities and Development Timeline
+
+Group Responsibilities : 
+
+
+Project Manager :
+Overseeing the entire project
+Coordinating tasks and ensuring deadlines are met
+Communicating with the lecturer and users 
+
+
+Developers : 
+Designing and implementing the backend architecture
+Ensuring database integration and data security
+Designing the user interface
+Implementing the front-end functionalities
+Ensuring a user-friendly and responsive design
+Designing the database schema
+Managing data storage, retrieval, and integrity
+Ensuring database security and backups
+Compiling and maintaining project documentation
+
+
+
+System Analyst:
+Analyzing system requirements
+Documenting functional and non-functional requirements
+Ensuring the system meets user needs
+Developing test plans and test cases
+Conducting various testing methods (unit, integration, system, and acceptance testing)
+Identifying and reporting bugs
+Creating user manuals and system documentation
+Ensuring all documents are up-to-date and comprehensive
+
+
+
+
+
+Development Timeline
+
+Week 1-2:
+Project Initiation and Planning
+Define project scope and objectives
+Assign group responsibilities
+Develop a project timeline
+Requirement Analysis
+Gather and document functional and non-functional requirements
+Create use case diagrams and scenarios
+System Design
+Design system architecture
+Create database schema
+Design user interface prototypes
+
+
+Week 3-4:
+
+
+Backend Development
+Develop server-side logic
+Implement database connections and APIs
+Ensure data security measures
+Post-Deployment Support and Documentation
+Provide initial support to users
+Finalize and submit project documentation
+Frontend Development
+Integrate front-end with backend 
+Ensure responsive design and usability
+Identify and fix bugs
+Gather feedback and make necessary adjustments
+
+
+Week 5 : 
+Conduct final system checks
+System Deployment
+Deploy the system to the live environment
+Ensure all functionalities are working as expected
+
+
+
+Development and Deployment Cost Estimation
+
+Development Cost
+
+Item	Description	Estimated Cost
+Project Management	Coordination, planning, and communication	$2,000
+System Analysis	Requirement gathering and analysis	$1,500
+Backend Development	Server-side development, API creation	$3,500
+Frontend Development	User interface design and implementation	$2,500
+Database Management	Schema design, data integration, security	$1,800
+Quality Assurance	Testing, bug fixing, and quality assurance	$1,200
+Documentation	Creating user manuals and project documentation	$1,000
+Miscellaneous	Contingency for unexpected expenses	$1,000
+Total Development Cost		$14,500
+
+
+Deployment Cost
+Item	Description	Estimated Cost
+Server Infrastructure	Hosting, domain registration, SSL certificates	$2,500
+Deployment Tools	CI/CD tools, deployment scripts, monitoring tools	$1,000
+Support and Maintenance	Post-deployment support and maintenance for 1 year	$3,000
+Training	User training and onboarding	$1,000
+Total Deployment Cost		$7,500
+Summary
+Total Project Cost:
+
+Development Cost: $14,500
+Deployment Cost: $7,500
+Total Cost: $22,000
+This estimation provides a comprehensive overview of the costs associated with developing and deploying the e-passport system for Bangladesh. It ensures that the project is adequately funded and resources are allocated efficiently to meet the project objectives.
+
+
+
+
+

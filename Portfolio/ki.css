@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo-branding {
+    display: flex;
+    align-items: center;
+}
+
+.logo-branding img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.header-right .user-options a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.breaking-news {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.top-stories {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.top-stories .story-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-stories .story-grid article {
+    flex: 1 1 calc(33% - 20px);
+    margin: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.top-stories .story-grid article img {
+    max-width: 100%;
+    height: auto;
+}
+
+aside {
+    flex: 1;
+}
+
+aside section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links a, .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.newsletter-signup {
+    margin-top: 20px;
+}
+
+.newsletter-signup input {
+    padding: 5px;
+    margin-right: 10px;
+}
